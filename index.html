@@ -10,22 +10,24 @@
     <header>
       <h1>Serviços</h1>
     </header>
+    <input type="checkbox" name="imc" id="imc_1">
+    <input type="checkbox" name="tmb" id="tmb_1">
     <main>
       <div class="container">
         <div class="box-card">
-          <img src="img/imc.jpg" alt="Indice Massa Corporal" />
+          <label for="imc_1" id="img_imc"><img src="img/imc.jpg" alt="Indice Massa Corporal" for="imc_1"/></label>
           <h2>IMC</h2>
-          <p >
+          <p id="imc_text">
             O IMC é uma medida que relaciona o peso e a altura de uma pessoa
             para estimar seu grau de obesidade ou magreza e, consequentemente,
             avaliar o risco para a saúde.
           </p>
-          <button>Clique aqui para Calcular</button>
+          <button for="imc_1">Clique aqui para Calcular</button>
         </div>
         <div class="box-card">
-          <img src="img/tmb.jpg" alt="Taxa de Metabolismo Basal" />
+          <label for="tmb_1"><img src="img/tmb.jpg" alt="Taxa de Metabolismo Basal" /></label>
           <h2>TMB</h2>
-          <p>
+          <p id="tmb_text">
             A sigla TMB se refere à Taxa Metabólica Basal. A Taxa Metabólica
             Basal é a quantidade mínima de energia que o corpo humano precisa
             para manter funções vitais, como a respiração, a circulação
