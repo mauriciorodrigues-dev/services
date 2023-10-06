@@ -86,7 +86,11 @@ header h1 {
     }
 }
 
-input#imc_1:checked +.container .box-card p {
+.container .box-card p#imc_text {
+    display: none;
+}
+
+input#imc_1:checked + p {
     display: block;
 }
 
@@ -97,9 +101,9 @@ input#imc_1:checked +.container .box-card p {
     }
 
 }
-
+/* 
 @media(max-width:400px) {
     .container .box-card p {
         display: none;
     }
-}
+} */
